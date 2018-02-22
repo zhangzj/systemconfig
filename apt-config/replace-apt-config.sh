@@ -16,6 +16,6 @@ else
 echo "update in aliyun.list"
 fi
 
-cp aliyun.list $APT_CONFIG_FILE_PATH/sources.list.d/aliyun.list
+cp aliyun.list $APT_CONFIG_FILE_PATH/sources.list
 
 apt update
